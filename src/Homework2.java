@@ -170,5 +170,19 @@ public class Homework2 {
         // Работник берет из склада товар, на складе товар уменьшается. Работник когда взял товар, выводит на экран
         // "Ура я испортил водку!" и добавляет к себе в журнал количество испорченного товара.
         // У склада есть только одна позиция - Водка.
+        Storage storage = new Storage();
+        Employee emp1 = new Employee(storage);
+        Employee emp2 = new Employee(storage);
+        Employee emp3 = new Employee(storage);
+
+        emp1.brokenVodka();
+        emp2.brokenVodka();
+        emp3.brokenVodka();
+        System.out.println(emp1.getCountBrokenProd());
+        System.out.println(storage.getProductCount());
+        emp1.setCountBrokenProd(12);
+        System.out.println(emp1.getCountBrokenProd());
+        emp1.brokenVodka();
+        System.out.println(emp1.getCountBrokenProd());
     }
 }
