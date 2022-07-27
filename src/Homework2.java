@@ -8,7 +8,7 @@ public class Homework2 {
         // Задание №1 - Написать цикл, который выводит через пробел 100 чисел с приставкой "a".
         // Ожидаемый результат: 1а 2а 3а .. 100а
         for (int i = 1; i < 101; i++) {
-            System.out.println (i + "a");
+            System.out.print (i + "a ");
         }
         //
         // Задание №2
@@ -118,8 +118,8 @@ public class Homework2 {
         boolean hasFuel = true;
         boolean hasElectricsProblem = false;
         boolean hasMotorProblem = false;
-        boolean hasTransmissionProblem = true;
-        boolean hasWheelsProblem = true;
+        boolean hasTransmissionProblem = false;
+        boolean hasWheelsProblem = false;
         // В автосервис приехала сломанная машина. Механики находят неисправность следующим способом:
         // Если у машины нет бензина и ничего не сломано, то отдают машину владельцу и берут 1000 рублей за консультацию.
         // Если у машины проблема с двигателем, то чинят и берут 10 000.
@@ -131,7 +131,36 @@ public class Homework2 {
         // Если нет бензина и что-то сломано, то за консультацию денег не берут.
         // Ситуации, что бензин есть и ничего не сломано - быть не может.
         // Ожидаемый результат: выведен на экран счет клиенту.
-        if ()
+        double price = 0;
+        int countProblems = 0;
+
+        if (!hasFuel && !(hasElectricsProblem || hasMotorProblem || hasTransmissionProblem || hasWheelsProblem)) {
+            price = 1000;
+        } else {
+            if (hasMotorProblem) {
+                price += 10_000;
+                countProblems++;
+            }
+            if (hasElectricsProblem) {
+                price += 5_000;
+                countProblems++;
+            }
+            if (hasTransmissionProblem) {
+                price += 4_000;
+                countProblems++;
+            }
+            if (hasWheelsProblem) {
+                price += 2_000;
+                countProblems++;
+            }
+            if (countProblems >= 2) {
+                price *= 0.9;
+            }
+            if (hasTransmissionProblem && (hasElectricsProblem || hasMotorProblem)) {
+                price *= 0.8;
+            }
+        }
+        System.out.println(price);
 
         // Задание №4:
         // Написать систему управления складскими запасами. Создать класс склад, создать класс работники
