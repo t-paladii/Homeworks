@@ -1,11 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="117e94d0-2a1e-4450-b3cb-3a216598c6b2" name="Changes" comment="Подкорректировано первое задание в базовом уровне. Исправлено с println на print.">
-      <change afterPath="$PROJECT_DIR$/src/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Storage.java" afterDir="false" />
+    <list default="true" id="117e94d0-2a1e-4450-b3cb-3a216598c6b2" name="Changes" comment="Сделано Задание №4 продвинутого уровня.">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Homework3/Auto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Homework3/CarFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Homework3/Financial_record.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Homework3/Homework3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Homework3/Toyota.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Homework3/Ziguli.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Homework3/my_first_file.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Homework3/report.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Homework4/Duck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Homework4/FlyException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Homework4/Flying.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Homework4/Homework4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Homework4/Plane.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Homework2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homework2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CatPet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homework2/CatPet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homework2/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Homework2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homework2/Homework2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/RatPet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homework2/RatPet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Storage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homework2/Storage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +31,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -36,6 +53,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "ToolWindowCommit.ShowToolbar": "false",
     "jdk.selected.JAVA_MODULE": "corretto-11",
     "project.structure.last.edited": "Modules",
@@ -44,17 +62,50 @@
     "settings.editor.selected.configurable": "vcs.Git"
   }
 }]]></component>
-  <component name="RunManager">
-    <configuration name="Homework2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Homework2" />
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/Homework3" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Homework3">
+    <configuration name="Homework2.Homework2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Homework2.Homework2" />
       <module name="Homeworks" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Homework3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Homework3.Homework3" />
+      <module name="Homeworks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Homework3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Homework4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Homework4.Homework4" />
+      <module name="Homeworks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Homework4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Homework2" />
+        <item itemvalue="Application.Homework3" />
+        <item itemvalue="Application.Homework4" />
+        <item itemvalue="Application.Homework2.Homework2" />
       </list>
     </recent_temporary>
   </component>
@@ -95,7 +146,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658933221042</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Сделано Задание №4 продвинутого уровня.">
+      <created>1658943271972</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1658943271972</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -113,6 +171,17 @@
     <MESSAGE value="Сделаны базовый и продвинутый уровни." />
     <MESSAGE value="Создан файл" />
     <MESSAGE value="Подкорректировано первое задание в базовом уровне. Исправлено с println на print." />
-    <option name="LAST_COMMIT_MESSAGE" value="Подкорректировано первое задание в базовом уровне. Исправлено с println на print." />
+    <MESSAGE value="Сделано Задание №4 продвинутого уровня." />
+    <option name="LAST_COMMIT_MESSAGE" value="Сделано Задание №4 продвинутого уровня." />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="Homework4.FlyException" package="Homework4" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

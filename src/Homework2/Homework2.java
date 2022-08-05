@@ -1,4 +1,5 @@
-import java.sql.SQLOutput;
+package Homework2;
+
 import java.util.Arrays;
 
 public class Homework2 {

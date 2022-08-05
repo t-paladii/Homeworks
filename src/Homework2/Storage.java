@@ -1,3 +1,5 @@
+package Homework2;
+
 public class Storage {
     private int productCount;
 

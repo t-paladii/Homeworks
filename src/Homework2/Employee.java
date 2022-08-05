@@ -1,3 +1,5 @@
+package Homework2;
+
 public class Employee {
     private int countBrokenProd;
     private Storage storage;

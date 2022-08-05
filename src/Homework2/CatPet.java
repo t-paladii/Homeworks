@@ -1,3 +1,5 @@
+package Homework2;
+
 import com.sun.source.tree.BreakTree;
 
 public class CatPet {

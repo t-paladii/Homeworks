@@ -1,3 +1,5 @@
+package Homework2;
+
 public class RatPet {
     private String color;
     private int age;
