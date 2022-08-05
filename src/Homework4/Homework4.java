@@ -27,14 +27,13 @@ public class Homework4 {
         // самолет летит
         // Ошибка: пассажиров в самолете меньше 0
         Duck duck = new Duck(false);
-        duck.fly();
         Duck duck1 = new Duck(true);
-        duck1.fly();
         Plane plane = new Plane(10);
-        plane.fly();
         Plane plane1 = new Plane(-1);
-        plane1.fly();
-
+        Flying[] flyings = {duck, duck1, plane, plane1};
+        for (Flying flying : flyings) {
+            flying.fly();
+        }
 
         //Продвинутый уровень
         //Задача №1
