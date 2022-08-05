@@ -1,5 +1,7 @@
 package Homework4;
 
+import java.sql.SQLOutput;
+
 public class Plane implements Flying {
     private int countPassengers;
 
@@ -17,10 +19,16 @@ public class Plane implements Flying {
 
     @Override
     public void fly() throws FlyException {
-        if (countPassengers < 0) {
-            throw new FlyException("Пассажиров меньше 0, не полетим");
+        try {
+            if (countPassengers < 0) {
+                throw new FlyException("Пассажиров меньше 0, не полетим");
+            } else {
+           System.out.println("Самолет полетел");
+          }
         }
-        System.out.println("Самолет полетел");
+        catch (Exception e){
+            System.out.println(e.getMessage());
+        }
 
     }
 }

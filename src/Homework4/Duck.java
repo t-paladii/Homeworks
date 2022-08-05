@@ -15,12 +15,21 @@ public class Duck implements Flying{
     public boolean isInjured() {
         return isInjured;
     }
+
     @Override
     public void fly() throws FlyException {
-        if (isInjured) {
-            throw new FlyException("Уточка ранена");
+            try {
+                if (isInjured) {
+                    throw new FlyException("Уточка ранена");
+                } else {
+                    System.out.println("Уточка летит");
+                }
             }
-        System.out.println("Уточка летит");
+            catch (Exception e){
+                System.out.println(e.getMessage());
+            }
+
         }
+
 }
 

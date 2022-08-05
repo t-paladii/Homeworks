@@ -26,22 +26,14 @@ public class Homework4 {
         // Ошибка: утка ранена
         // самолет летит
         // Ошибка: пассажиров в самолете меньше 0
-
-
-//        Duck duck = new Duck(true);
-//        Duck duck1 = new Duck(false);
-////        try {
-////            duck1.fly();
-////        } catch (FlyException exception) {
-////            System.out.println("уточка не летит");
-////        }
-//        duck.fly();
-//
-//
-//        Plane plane = new Plane(0);
-//        plane.fly();
-
-
+        Duck duck = new Duck(false);
+        duck.fly();
+        Duck duck1 = new Duck(true);
+        duck1.fly();
+        Plane plane = new Plane(10);
+        plane.fly();
+        Plane plane1 = new Plane(-1);
+        plane1.fly();
 
 
         //Продвинутый уровень

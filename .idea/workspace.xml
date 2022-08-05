@@ -1,27 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="117e94d0-2a1e-4450-b3cb-3a216598c6b2" name="Changes" comment="Сделано Задание №4 продвинутого уровня.">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Homework3/Auto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Homework3/CarFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Homework3/Financial_record.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Homework3/Homework3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Homework3/Toyota.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Homework3/Ziguli.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Homework3/my_first_file.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Homework3/report.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Homework4/Duck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Homework4/FlyException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Homework4/Flying.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Homework4/Homework4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Homework4/Plane.java" afterDir="false" />
+    <list default="true" id="117e94d0-2a1e-4450-b3cb-3a216598c6b2" name="Changes" comment="Сделана домашка №3 (базовый и продвинутый задача №1)&#10;Начата домашка №4 (базовый)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CatPet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homework2/CatPet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homework2/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Homework2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homework2/Homework2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/RatPet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homework2/RatPet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Storage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homework2/Storage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Homework4/Duck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homework4/Duck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Homework4/Homework4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homework4/Homework4.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +50,7 @@
       <recent name="$PROJECT_DIR$/src/Homework3" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Homework3">
+  <component name="RunManager" selected="Application.Homework4">
     <configuration name="Homework2.Homework2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Homework2.Homework2" />
       <module name="Homeworks" />
@@ -103,8 +86,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Homework3" />
         <item itemvalue="Application.Homework4" />
+        <item itemvalue="Application.Homework3" />
         <item itemvalue="Application.Homework2.Homework2" />
       </list>
     </recent_temporary>
@@ -153,7 +136,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658943271972</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Сделана домашка №3 (базовый и продвинутый задача №1)&#10;Начата домашка №4 (базовый)">
+      <created>1659716117603</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1659716117603</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -172,7 +162,8 @@
     <MESSAGE value="Создан файл" />
     <MESSAGE value="Подкорректировано первое задание в базовом уровне. Исправлено с println на print." />
     <MESSAGE value="Сделано Задание №4 продвинутого уровня." />
-    <option name="LAST_COMMIT_MESSAGE" value="Сделано Задание №4 продвинутого уровня." />
+    <MESSAGE value="Сделана домашка №3 (базовый и продвинутый задача №1)&#10;Начата домашка №4 (базовый)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Сделана домашка №3 (базовый и продвинутый задача №1)&#10;Начата домашка №4 (базовый)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
